@@ -41,6 +41,6 @@ class PostController extends Controller
         $post->save();
 
         // リダイレクトさせる
-        return redirect()->route('posts.create');
+        return redirect('/posts');
     }
 }
