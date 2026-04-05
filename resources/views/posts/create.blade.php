@@ -32,7 +32,7 @@
         <tr>
             <th>本文</th>
             <td>
-                <input type="text" name="content">
+                <textarea name="content"></textarea>
             </td>
         </tr>
     </table>
